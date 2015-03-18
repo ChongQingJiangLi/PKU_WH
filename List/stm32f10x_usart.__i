@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\src\IMU 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-o "..\List\stm32f10x_usart.o" --omf_browse "..\List\stm32f10x_usart.crf" --depend "..\List\stm32f10x_usart.d" "..\src\STM32Lib\stm32f10x_usart.c"

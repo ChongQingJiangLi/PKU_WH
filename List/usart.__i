@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\src\IMU 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-o "..\List\usart.o" --omf_browse "..\List\usart.crf" --depend "..\List\usart.d" "..\src\USART.C"
