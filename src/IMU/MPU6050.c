@@ -19,6 +19,7 @@
 #define GYRO_RATIOP  0.060976//0.061890
 #define INT_SCALE			0.04
 #define SIMPLE_TIME 0.04
+#define UPDATE_THRESH 3
 
 #define MAX_DataNum 450
 
@@ -161,7 +162,7 @@ float getGyroAngleX()
   
 //  GyroRate = kalman_filter(&kal_filter, input); //kalman滤波
   GyroRate = input;
-  if(abs(GyroRate-Gyro_Offset_X)>5) //小车发生了旋转运动
+  if(abs(GyroRate-Gyro_Offset_X)>UPDATE_THRESH) //小车发生了旋转运动
   {
     filtedRate = (GyroRate-Gyro_Offset_X)*SIMPLE_TIME;
     if(filtedRate > 0)
@@ -219,7 +220,7 @@ float getGyroAngleY()
   
 //  GyroRate = kalman_filter(&kal_filter, input); //kalman滤波
   GyroRate = input;
-  if(abs(GyroRate-Gyro_Offset_Y)>5) //小车发生了旋转运动
+  if(abs(GyroRate-Gyro_Offset_Y)>UPDATE_THRESH) //小车发生了旋转运动
   {
     filtedRate = (GyroRate-Gyro_Offset_Y)*SIMPLE_TIME;
     if(filtedRate > 0)
@@ -276,7 +277,7 @@ float getGyroAngleZ()
   
 //  GyroRate = kalman_filter(&kal_filter, input); //kalman滤波
   GyroRate = input;
-  if(abs(GyroRate-Gyro_Offset_Z)>5) //小车发生了旋转运动
+  if(abs(GyroRate-Gyro_Offset_Z)>UPDATE_THRESH) //小车发生了旋转运动
   {
     filtedRate = (GyroRate-Gyro_Offset_Z)*SIMPLE_TIME;
     if(filtedRate > 0)

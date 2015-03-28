@@ -1,0 +1,59 @@
+*** Creating Trace Output File '..\List\pku_wheelchair.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\list\core_cm3.o"'
+### List of Objects: adding '"..\list\misc.o"'
+### List of Objects: adding '"..\list\stm32f10x_adc.o"'
+### List of Objects: adding '"..\list\stm32f10x_bkp.o"'
+### List of Objects: adding '"..\list\stm32f10x_can.o"'
+### List of Objects: adding '"..\list\stm32f10x_crc.o"'
+### List of Objects: adding '"..\list\stm32f10x_dac.o"'
+### List of Objects: adding '"..\list\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '"..\list\stm32f10x_dma.o"'
+### List of Objects: adding '"..\list\stm32f10x_exti.o"'
+### List of Objects: adding '"..\list\stm32f10x_flash.o"'
+### List of Objects: adding '"..\list\stm32f10x_fsmc.o"'
+### List of Objects: adding '"..\list\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\list\stm32f10x_i2c.o"'
+### List of Objects: adding '"..\list\stm32f10x_iwdg.o"'
+### List of Objects: adding '"..\list\stm32f10x_pwr.o"'
+### List of Objects: adding '"..\list\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\list\stm32f10x_rtc.o"'
+### List of Objects: adding '"..\list\stm32f10x_sdio.o"'
+### List of Objects: adding '"..\list\stm32f10x_spi.o"'
+### List of Objects: adding '"..\list\stm32f10x_tim.o"'
+### List of Objects: adding '"..\list\stm32f10x_usart.o"'
+### List of Objects: adding '"..\list\stm32f10x_wwdg.o"'
+### List of Objects: adding '"..\list\system_stm32f10x.o"'
+### List of Objects: adding '"..\list\gpio.o"'
+### List of Objects: adding '"..\list\hal.o"'
+### List of Objects: adding '"..\list\main.o"'
+### List of Objects: adding '"..\list\nvic.o"'
+### List of Objects: adding '"..\list\rcc.o"'
+### List of Objects: adding '"..\list\stm32f10x_it.o"'
+### List of Objects: adding '"..\list\tim.o"'
+### List of Objects: adding '"..\list\usart.o"'
+### List of Objects: adding '"..\list\can.o"'
+### List of Objects: adding '"..\list\delay.o"'
+### List of Objects: adding '"..\list\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\list\sci.o"'
+### List of Objects: adding '"..\list\mpu6050.o"'
+### List of Objects: adding '"..\list\i2c.o"'
+### List of Objects: adding '"..\list\isr.o"'
+### List of Objects: adding '"..\list\processor.o"'
+### List of Objects: adding '"..\list\motor.o"'
+### List of Objects: adding '"..\list\buz.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\list\core_cm3.o" "..\list\misc.o" "..\list\stm32f10x_adc.o" "..\list\stm32f10x_bkp.o" "..\list\stm32f10x_can.o" "..\list\stm32f10x_crc.o" "..\list\stm32f10x_dac.o" "..\list\stm32f10x_dbgmcu.o" "..\list\stm32f10x_dma.o" "..\list\stm32f10x_exti.o" "..\list\stm32f10x_flash.o" "..\list\stm32f10x_fsmc.o" "..\list\stm32f10x_gpio.o" "..\list\stm32f10x_i2c.o" "..\list\stm32f10x_iwdg.o" "..\list\stm32f10x_pwr.o" "..\list\stm32f10x_rcc.o" "..\list\stm32f10x_rtc.o" "..\list\stm32f10x_sdio.o" "..\list\stm32f10x_spi.o" "..\list\stm32f10x_tim.o" "..\list\stm32f10x_usart.o" "..\list\stm32f10x_wwdg.o" "..\list\system_stm32f10x.o" "..\list\gpio.o" "..\list\hal.o" "..\list\main.o" "..\list\nvic.o" "..\list\rcc.o" "..\list\stm32f10x_it.o" "..\list\tim.o" "..\list\usart.o" "..\list\can.o" "..\list\delay.o" "..\list\startup_stm32f10x_hd.o" "..\list\sci.o" "..\list\mpu6050.o" "..\list\i2c.o" "..\list\isr.o" "..\list\processor.o" "..\list\motor.o" "..\list\buz.o" 
+--strict --scatter "..\List\pku_wheelchair.sct" 
+--summary_stderr --info summarysizes -o ..\List\pku_wheelchair.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\List\pku_wheelchair.axf'
+### ADS-LD Command File: '..\List\pku_wheelchair.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\List\pku_wheelchair.lnp', Handle=0x00000468
+### Writing '.lnp' file
+### ADS-LD Command file '..\List\pku_wheelchair.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
