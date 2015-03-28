@@ -20,7 +20,7 @@
 #define INT_SCALE			0.04
 #define SIMPLE_TIME 0.04
 
-#define MAX_DataNum 250
+#define MAX_DataNum 450
 
 unsigned char TX_DATA[4];  	 //ÏÔÊ¾¾İ»º´æÇø
 

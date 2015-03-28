@@ -34,9 +34,15 @@ void static print_to_buf(unsigned char *buff, unsigned char size)
 // 		Set_MD(_COM_DATA.velocity);
 // 		}  
 		l_motor = *(short *)&buff[0];
+		l_motor = l_motor > MAX_PWM? MAX_PWM : l_motor;
+		l_motor = l_motor < MIN_PWM? MIN_PWM : l_motor;
+		
 		r_motor = *(short *)&buff[2];
-		//Motor_Speed_Set(MOTOR_NUM1, l_motor);
-		//Motor_Speed_Set(MOTOR_NUM2, r_motor);
+		r_motor = r_motor > MAX_PWM? MAX_PWM : r_motor;
+		r_motor = r_motor < MIN_PWM? MIN_PWM : r_motor;
+		
+		Motor_Speed_Set(MOTOR_NUM1, l_motor);
+		Motor_Speed_Set(MOTOR_NUM2, r_motor);
 	}
   
     else if(size==PID_CONTROL){

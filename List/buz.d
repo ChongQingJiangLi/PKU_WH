@@ -17,3 +17,4 @@
 ..\List\buz.o: ..\src\IMU\..\STM32Lib\\stm32f10x_wwdg.h
 ..\List\buz.o: ..\src\IMU\..\STM32Lib\\misc.h
 ..\List\buz.o: ..\src\buz.h
+..\List\buz.o: ..\src\delay.h

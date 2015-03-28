@@ -19,7 +19,11 @@ typedef struct
 #define BOTH_CONTROL 4
 #define PID_CONTROL 8
 #define Steer_center 1500		//center 1500ms
-#define speed_zero  1500		//stop duty 
+#define speed_zero  1500		//stop duty
+#define MAX_PWM		1000
+#define MIN_PWM   -1000
+#define MAX_SPEED  5
+#define MIN_SPEED  -5
 
 extern int depacket(char rxbyte);
 extern _ONE_RECEIVE _COM_DATA;

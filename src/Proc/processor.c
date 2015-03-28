@@ -77,19 +77,17 @@ void TIM2_IRQHandler(void)
 	if (TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET)
 	{
 		TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
-			
-		//re_data=IMU_Inital();
       //get the encoder   forward backward reserve
     encoder_left_count = TIM_GetCounter(TIM3);
 		encoder_right_count = TIM_GetCounter(TIM4);
       //send the data
 		gyroZ = (short)getGyroAngleZ();
-// 		gyroX = (short)getGyroAngleX();
-// 		gyroY = (short)getGyroAngleY();
+ 		gyroX = (short)getGyroAngleX();
+ 		gyroY = (short)getGyroAngleY();
 		
-		//CAN_Transmit_data(0x123, 23.6);
-		Motor_PWM_Set(0x02, 20);
-		Motor_PWM_Set(0x01, 50);
+		
+		//Motor_PWM_Set(0x02, 20);
+		//Motor_PWM_Set(0x01, 50);
     //send_status(re_data.angle_speed, encoder_count);
 		send_status(gyroX, gyroY, gyroZ, encoder_left_count, encoder_right_count);
 		

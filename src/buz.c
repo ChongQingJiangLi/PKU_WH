@@ -1,6 +1,6 @@
 #include "..\STM32Lib\\stm32f10x.h"
 #include "buz.h"
- 
+#include "delay.h"
 
 void buz_init()
 {
@@ -13,29 +13,15 @@ void buz_init()
 	GPIO_Init(GPIOB, &GPIO_InitStructure);
 }
 
-void delay_ms(unsigned int num)
-{
-//	int i;
-//	for(i=200; i>0; i--)
-	   while(num) 
-   { 
-     num--; 
-   } 
-}
-
-void bb()
-{
-	GPIO_SetBits(GPIOB, GPIO_Pin_8);
-	delay_ms(50000);
-	GPIO_ResetBits(GPIOB, GPIO_Pin_8);
-	delay_ms(50000);
-}
-
 void beep(unsigned int num)
 {
-	int i=0;
-	for(i=0; i<num; i--)
+	int i;
+	for(i=0; i<num; i++)
 	{
-		bb();
+		GPIO_SetBits(GPIOB, GPIO_Pin_8);
+		delay_ms(300);
+		GPIO_ResetBits(GPIOB, GPIO_Pin_8);
+		delay_ms(300);		
 	}
+
 }

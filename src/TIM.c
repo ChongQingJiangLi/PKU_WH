@@ -48,8 +48,6 @@ void TIM1_8_Configuration(void)
 /**************************
 TIMER2  as the clock for signal capture
 **************************/
-
-
 void TIM2_Configuration(void)
 {
 	TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
