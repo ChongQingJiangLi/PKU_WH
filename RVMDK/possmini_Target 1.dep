@@ -447,7 +447,7 @@ I (..\src\STM32Lib\\stm32f10x_usart.h)(0x49D95B3A)
 I (..\src\STM32Lib\\stm32f10x_wwdg.h)(0x49D95B3A)
 I (..\src\STM32Lib\\misc.h)(0x49D95B3A)
 I (..\src\hal.h)(0x53C3DA00)
-F (..\src\hal.c)(0x55161F34)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\src\IMU -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "..\List\hal.o" --omf_browse "..\List\hal.crf" --depend "..\List\hal.d")
+F (..\src\hal.c)(0x55166C5D)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\src\IMU -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "..\List\hal.o" --omf_browse "..\List\hal.crf" --depend "..\List\hal.d")
 I (..\src\STM32Lib\\stm32f10x.h)(0x49E1DC2A)
 I (..\src\STM32Lib\\core_cm3.h)(0x49D95B38)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
@@ -600,7 +600,7 @@ I (..\src\IMU\..\STM32Lib\\misc.h)(0x49D95B3A)
 F (..\src\delay.c)(0x55161ECC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\src\IMU -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "..\List\delay.o" --omf_browse "..\List\delay.crf" --depend "..\List\delay.d")
 I (..\src\delay.h)(0x5131B350)
 F (..\src\STM32Lib\StartUp\startup_stm32f10x_hd.s)(0x53C2338E)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --nowarn -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "..\List\startup_stm32f10x_hd.o" --depend "..\List\startup_stm32f10x_hd.d")
-F (..\src\SCI\sci.c)(0x551656B7)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\src\IMU -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "..\List\sci.o" --omf_browse "..\List\sci.crf" --depend "..\List\sci.d")
+F (..\src\SCI\sci.c)(0x55166D1D)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\src\IMU -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "..\List\sci.o" --omf_browse "..\List\sci.crf" --depend "..\List\sci.d")
 I (..\src\SCI\sci.h)(0x5516209A)
 I (..\src\SCI\..\STM32Lib\\stm32f10x.h)(0x49E1DC2A)
 I (..\src\SCI\..\STM32Lib\\core_cm3.h)(0x49D95B38)
@@ -726,7 +726,7 @@ I (..\src\IMU\..\STM32Lib\\stm32f10x_wwdg.h)(0x49D95B3A)
 I (..\src\IMU\..\STM32Lib\\misc.h)(0x49D95B3A)
 I (..\src\motor.h)(0x55057A66)
 F (..\src\motor.h)(0x55057A66)()
-F (..\src\buz.c)(0x55161F87)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\src\IMU -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "..\List\buz.o" --omf_browse "..\List\buz.crf" --depend "..\List\buz.d")
+F (..\src\buz.c)(0x55166D2A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\src\IMU -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "..\List\buz.o" --omf_browse "..\List\buz.crf" --depend "..\List\buz.d")
 I (..\src\IMU\..\STM32Lib\\stm32f10x.h)(0x49E1DC2A)
 I (..\src\IMU\..\STM32Lib\\core_cm3.h)(0x49D95B38)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)

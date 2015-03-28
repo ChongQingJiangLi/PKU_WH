@@ -19,9 +19,9 @@ void beep(unsigned int num)
 	for(i=0; i<num; i++)
 	{
 		GPIO_SetBits(GPIOB, GPIO_Pin_8);
-		delay_ms(300);
+		delay_ms(150);
 		GPIO_ResetBits(GPIOB, GPIO_Pin_8);
-		delay_ms(300);		
+		delay_ms(150);		
 	}
 
 }
